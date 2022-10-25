@@ -1,3 +1,31 @@
 header {
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
 }
+
+
+.headerLogo {
+    width: 300px;
+    border: 2px solid red;
+}
+
+h1 {
+    border: 3px solid yellow;
+}
+
+.headerLogo img {
+    width: 90%;
+}
+
+.teamIntro {
+    text-align: center;
+}
+
+.lineIntro{
+    background-color: #BDD1DF;
+    height: 2px;
+    width: 400px;
+    margin: auto;
+}
+
