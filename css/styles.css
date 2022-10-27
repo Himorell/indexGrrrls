@@ -1,3 +1,7 @@
+body {
+    background-color: #EFF8FF;
+}
+/*Start Header*/
 header {
     background-color: blueviolet;
     display: flex;
@@ -13,6 +17,7 @@ header {
 
 h1 {
     border: 3px solid yellow;
+    font-family: 'Armata', sans-serif;
 }
 
 .headerLogo img {
@@ -21,6 +26,9 @@ h1 {
     justify-content: flex-start;
 }
 
+/*EndHeader*/
+
+/*StartMain*/
 .teamIntro {
     text-align: center;
 }
@@ -31,4 +39,37 @@ h1 {
     width: 400px;
     margin: auto;
 }
+
+.teamIntro {
+    font-family: 'Armata', sans-serif;
+}
+.menuTeam {
+    display: flex;
+    flex-direction: row;
+}
+
+.memberMenu {
+    font-family: 'Armata', sans-serif;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+    text-align: center;
+}
+.memberMenu img {
+    border-radius: 100%;
+    width: 100%;
+}
+.blueProfile {
+    background-color: #BDF0FB;
+    display: flex;
+    justify-content: center;
+
+}
+.blueProfile img {
+    width: 40%;
+}
+
+
+
 
