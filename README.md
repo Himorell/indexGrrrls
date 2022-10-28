@@ -10,9 +10,11 @@ Team Members: Noa Trujillo (Scrum Master)
               Himorell Jaramillo
               Lola Navarro
               
+URL: http://127.0.0.1:5500/index.html
 
 
-              
+       ![web](https://user-images.githubusercontent.com/116545301/198562416-926a0d6c-794f-414d-ad4f-11c01a0280b7.JPG)
+       
               
 Stacks: HTML5 and CSS3
 
