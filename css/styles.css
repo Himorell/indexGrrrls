@@ -10,26 +10,33 @@ a {
 header {
     background-color: blueviolet;
     display: flex;
-    justify-content: center;
+    justify-items: flex-start;
     align-items: center;
 }
 
 .headerLogo {
-    width: 250px;
-    border: 2px solid red;
+    width: 210px;
     height: 38%;
+    margin-left: 10px;
 }
 
 h1 {
-    border: 3px solid yellow;
     font-family: 'Armata', sans-serif;
-    
+    color: white;
+    max-width: 1000px;
+    margin-left: 100px;
+    text-align: center;
+    text-overflow: none;
 }
 
-.headerLogo img {
+.responsiveLogo {
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    width: 50%;
+    min-width: 210px;
+    max-width: 210px;
+    height: auto;
 }
 
 /*EndHeader*/
@@ -51,8 +58,7 @@ h1 {
 }
 
 .teamIntro p {
-    font-size: 3vw;
-
+    font-size: 2.5vw;
 }
 
 .menuTeam {
@@ -78,23 +84,43 @@ h3 {
     border-radius: 100%;
     width: 80%;
 }
+
+/*memberProfiles*/
+
+.memberProfiles{
+    display: flex;
+    align-items: flex-start;
+}
+
 .blueProfile {
     background-color: #BDF0FB;
     display: flex;
-    flex-flow: row;
-    width: 1440px;
-    max-width: 100%;
-    margin: 0 auto;
+    flex-flow: row wrap;
+    width: 100%;
     padding: 0;
-
-}
-.blueProfile img {
-    width: 33%;
-    max-width: 600px;
-    height: 80vh;
-
+    min-height: 210px;
 }
 
+.responsiveNoa {
+    width: 50%;
+    min-width: 220px;
+    max-width: 220px;
+    height: auto;
+}
+
+.profileTitle{
+    font-size: 3.5vw;
+    margin-left: 20px;
+    font-family: 'Armata', sans-serif; 
+}
+
+.noaInfo {
+    background-color: #E1FAFF;
+    align-self: center;
+    margin-left: 20px;
+    font-family: 'Armata', sans-serif;
+    font-size: 2.5vw;
+}
 
 
 
